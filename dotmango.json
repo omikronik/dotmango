@@ -1,0 +1,20 @@
+{
+    "mode": "delete",
+    "files": [
+        {
+            "type": "file",
+            "target": "~/.config/mytest/mytest.conf",
+            "source": "nvim/init.vim"
+        },
+        {
+            "type": "file",
+            "target": "~/.myfilerc",
+            "source": ".myfilerc"
+        },
+        {
+            "type": "dir",
+            "target": "~/dirtest",
+            "source": "dirtest"
+        }
+    ]
+}
